@@ -1,0 +1,25 @@
+{
+  "name": "pertemuan-4-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandaandikabp/Pertemuan-4_NPM.git"
+  },
+  "author": "Andika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anandaandikabp/Pertemuan-4_NPM/issues"
+  },
+  "homepage": "https://github.com/anandaandikabp/Pertemuan-4_NPM#readme",
+  "dependencies": {
+    "nodemon": "^2.0.19",
+    "validator": "^13.7.0",
+    "yargs": "^17.5.1"
+  }
+}
