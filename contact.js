@@ -1,11 +1,5 @@
-// const readline = require("readline");
 const fs = require('fs');
 const validator = require('validator');
-
-// const rl = readline.createInterface({
-//     input: process.stdin,
-//     output: process.stdout
-// });
 
 // buat folder jika belum ada
 const dirPath = './data';
@@ -17,14 +11,6 @@ const dataPath = './data/contacts.json';
 if (!fs.existsSync(dataPath)) {
     fs.writeFileSync(dataPath, '[]','utf-8');
 }
-
-// const question = (ask) => {
-//     return new Promise((resolve,reject) => {
-//         rl.question(ask, (inputVariable) => {
-//             resolve(inputVariable);
-//         });
-//     });
-// };
 
 const answer = (name, email, mobile) => {
     const contact = {name,email,mobile};
